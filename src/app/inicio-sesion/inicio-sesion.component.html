@@ -1,0 +1,37 @@
+<div class="login">
+  <div class="login-image">
+    <img src="assets/images/imagen_login.png">
+    <img class="logo" src="assets/images/logo-imss.svg" width="213" height="233">
+    <div class="background"></div>
+  </div>
+  <div class="login-form">
+    <h1>
+      Sistema Integral de Transporte
+    </h1>
+    <app-card>
+
+      <div class="form-container">
+        <h2>Iniciar Sesion</h2>
+        <form role="form">
+          <div class="form-group form-matricula">
+            <label class="control-label req" for="email-01">Matrícula:</label>
+            <input class="form-control" id="email-01" placeholder="Matrícula" type="text">
+          </div>
+          <div class="form-group mb-0">
+            <label class="control-label req" for="password-01">Contraseña:</label>
+            <div class="icon-wrapper">
+              <input class="form-control" id="password-01" placeholder="Contraseña" type="password">
+              <img src="assets/icons/ojo.svg" alt="icono ojo">
+            </div>
+
+          </div>
+          <span>Campos obligatorios</span>
+          <div class="flex align-content-center flex-column flex-wrap">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+            <a class="remember">¿Olvidaste tu contraseña?</a>
+          </div>
+        </form>
+      </div>
+    </app-card>
+  </div>
+</div>

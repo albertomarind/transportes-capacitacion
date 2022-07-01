@@ -1,0 +1,24 @@
+.header {
+    background: var(--verde-gob-3);
+    .header-items {
+        padding-left: 0;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: flex-end;
+        .header-item {
+            list-style: none;
+            display: inline-block;
+            padding: 20px 25px;
+            // padding-left: ;
+            // padding:16px 8px 16px 8px;//Shorthand
+            .header-text {
+                text-decoration: none;
+                color: var(--blanco-gob-1);
+            }
+            &:last-child{
+                padding-right: 0;
+            }
+
+        }
+    }
+}

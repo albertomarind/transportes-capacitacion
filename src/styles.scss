@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    --rojo-gob-1: #691c32;
+    --rojo-gob-2: #9f2241;
+    --verde-gob-1: #006455;
+    --verde-gob-3: #10312b;
+    --dorado-gob-1: #bc955c;
+    --blanco-gob-1: #fff;
+}
+
+body {
+    padding-top: 60px;
+    background-color: #e5e5e5;
+}
+
+label {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.req::after{
+    content:"*";
+}
