@@ -1,0 +1,40 @@
+//Selector de id
+#item{
+    color:red;
+}
+
+li{
+    color:yellow;
+}
+
+li[my-atributo]{
+    color:green;
+}
+
+li[otro-atributo="123"]{
+    color:purple;
+}
+
+.nav-custom {
+    padding-left: 0;
+    margin-bottom: 0;
+    max-width: 300px;
+}
+
+.nav-custom .nav-custom-item {
+    background-color: white;
+    color: #337ab7;
+    padding: 10px 15px;
+}
+
+.nav-custom .nav-custom-item:hover{
+    background-color: #eee;
+}
+
+.nav-custom .nav-custom-item.nav-custom-item-selected {
+    background-color: #337ab7;
+    color: white;
+}
+
+
+

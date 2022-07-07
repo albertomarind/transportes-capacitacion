@@ -1,0 +1,29 @@
+:host{
+    display: block;
+    width: 500px;
+    height: 500px;
+}
+
+.custom-tooltip{
+    display: inline-block;
+    position: relative;
+}
+
+.custom-tooltip .custom-tooltip-text{
+    display: inline-block;
+}
+
+.custom-tooltip .custom-tooltip-text + .custom-tooltip-container{
+    color: white;
+    background-color: black;
+    display: none;
+    padding:4px 8px;
+}
+
+.custom-tooltip .custom-tooltip-text:hover + .custom-tooltip-container{
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translate(-100%,-100%);
+}

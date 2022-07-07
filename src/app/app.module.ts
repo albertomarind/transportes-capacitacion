@@ -10,13 +10,19 @@ import { HomeComponent } from './home/home.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { CardModule } from './shared/card/card.module';
 import { ReactiveFormsModule } from '@angular/forms';
+import { EjemplosPropiedadesCssComponent } from './shared/ejemplos-propiedades-css/ejemplos-propiedades-css.component';
+import { NavBootstrapComponent } from './shared/nav-bootstrap/nav-bootstrap.component';
+import { TooltipComponent } from './shared/tooltip/tooltip.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderImssComponent,
     InicioSesionComponent,
-    HomeComponent
+    HomeComponent,
+    EjemplosPropiedadesCssComponent,
+    NavBootstrapComponent,
+    TooltipComponent
   ],
   imports: [
     BrowserModule,
